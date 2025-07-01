@@ -1,4 +1,4 @@
-# Visual Studio build files
+# Visual Studio files
 .vs/
 *.suo
 *.user
@@ -14,7 +14,7 @@ x64/
 *.pdb
 *.ilk
 
-# Intermediate
+# Intermediates
 *.tlog
 *.ipch
 *.log
