@@ -1,0 +1,30 @@
+# Visual Studio build files
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# Build output
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# Intermediate
+*.tlog
+*.ipch
+*.log
+*.idb
+*.cache
+*.lastbuildstate
+
+# Others
+*.ncb
+*.sdf
+*.opensdf
+*.aps
+*.db
