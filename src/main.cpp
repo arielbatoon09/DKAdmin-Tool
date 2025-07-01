@@ -60,7 +60,7 @@ int main() {
 			DecodePacket(decrypted, bytesRecv);
 
 			// Send the decrypted data to the server
-            send(serverSocket, (char*)decrypted, bytesRecv, 0);
+            send(serverSocket, (char*)buffer, bytesRecv, 0);
 		}
 
         if (FD_ISSET(serverSocket, &readfds)) {
@@ -75,7 +75,7 @@ int main() {
 			DecodePacket(decrypted, bytesRecv);
 
 			// Send the decrypted data to the client
-			send(clientSocket, (char*)decrypted, bytesRecv, 0);
+            send(clientSocket, (char*)buffer, bytesRecv, 0);
         }
     
     }
